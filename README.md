@@ -11,6 +11,7 @@
 | Cooler         | Noctua NH-L9i                                                                             |
 
 ## BIOS
+### For macOS
 * Advanced
   * Chipset Configuration
     * Onboard HD Audio: Enabled
@@ -21,13 +22,13 @@
 * Security
   * Secure Boot: Disabled(by default)
 
-## Intel HWP
+### For Intel HWP
 * Advanced
   * CPU Configuration
     * CPU C States Support: Enabled
     * CFG Lock: Disabled
 
-Other Configurations by default
+### Other Configurations by default
 
 ## Works
 
