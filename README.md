@@ -62,4 +62,5 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2019.12.23 | clover 5101             |
 | 2019.12.11 | clover 5100 & Intel HWP |
