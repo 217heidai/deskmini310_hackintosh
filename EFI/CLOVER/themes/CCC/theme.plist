@@ -21,6 +21,10 @@
 		<dict>
 			<key>Inline</key>
 			<false/>
+			<key>OffsetX</key>
+			<integer>0</integer>
+			<key>OffsetY</key>
+			<integer>0</integer>
 			<key>Scale</key>
 			<integer>16</integer>
 			<key>Show</key>
