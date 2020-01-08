@@ -73,8 +73,6 @@
 				<key>FixWAK</key>
 				<false/>
 			</dict>
-			<key>Name</key>
-			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
