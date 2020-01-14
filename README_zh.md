@@ -21,7 +21,7 @@
   * Super IO Configuration
     * Serial Port: Disabled  
 * Security
-  * Secure Boot: Disabled(by default)
+  * Secure Boot: Disabled
 
 ### 3. 开启 Intel CPU 原生电源管理所需配置
 * Advanced
@@ -41,7 +41,7 @@
 
 ## 提醒
 
-* 系统安装完, 请使用 Clover Configurator 生成 SMBIOS 序列号
+* 系统安装完, 请使用 Clover Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
 ## 更新日志
 

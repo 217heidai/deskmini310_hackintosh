@@ -22,7 +22,7 @@
   * Super IO Configuration
     * Serial Port: Disabled  
 * Security
-  * Secure Boot: Disabled(by default)
+  * Secure Boot: Disabled
 
 ### For Intel HWP
 * Advanced
