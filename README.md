@@ -1,5 +1,7 @@
 # Hackintosh your Deskmini310
 
+[中文 Chinese](./README_zh.md)
+
 ## Configuration
 
 | Specifications | Detail                                                                                    |
@@ -52,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.01.14 | update AppleALC、Lilu、VirtualSMC、WhateverGreen |
 | 2020.01.08 | clover 5103 & replace AptioMemoryFix with OsxAptioFix3Drv & replace HFSPlus with VBoxHfs |
 | 2020.01.03 | clover 5102 |
 | 2019.12.23 | clover 5101 |
