@@ -47,6 +47,7 @@
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.02.21 | 更新 clover 5104、AppleALC、VirtualSMC |
 | 2020.01.14 | 更新 AppleALC、Lilu、VirtualSMC、WhateverGreen |
 | 2020.01.08 | 更新 clover 5103，使用OsxAptioFix3Drv替换AptioMemoryFix，使用VBoxHfs替换HFSPlus |
 | 2020.01.03 | 更新 clover 5102 |
