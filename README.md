@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.03.03 | update AppleALC、Lilu、WhateverGreen |
 | 2020.02.21 | clover 5104 & update AppleALC、VirtualSMC |
 | 2020.01.14 | update AppleALC、Lilu、VirtualSMC、WhateverGreen |
 | 2020.01.08 | clover 5103 & replace AptioMemoryFix with OsxAptioFix3Drv & replace HFSPlus with VBoxHfs |
