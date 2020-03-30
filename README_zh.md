@@ -47,6 +47,7 @@
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.03.30 | 更新 clover 5107 |
 | 2020.03.03 | 更新 AppleALC、Lilu、WhateverGreen |
 | 2020.02.21 | 更新 clover 5104、AppleALC、VirtualSMC |
 | 2020.01.14 | 更新 AppleALC、Lilu、VirtualSMC、WhateverGreen |
