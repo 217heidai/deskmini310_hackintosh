@@ -14,6 +14,9 @@
 
 ### 2. 安装 macOS 所需配置
 * Advanced
+  * CPU Configuration
+    * CPU C States Support: Enabled
+    * CFG Lock: Disabled
   * Chipset Configuration
     * Onboard HD Audio: Enabled
   * USB Configuration
@@ -22,12 +25,6 @@
     * Serial Port: Disabled  
 * Security
   * Secure Boot: Disabled
-
-### 3. 开启 Intel CPU 原生电源管理所需配置
-* Advanced
-  * CPU Configuration
-    * CPU C States Support: Enabled
-    * CFG Lock: Disabled
 
 ## 工作状态
 * [x] CPU 变频，开启 HWP
@@ -41,12 +38,13 @@
 
 ## 提醒
 
-* 系统安装完, 请使用 Clover Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
+* 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
 ## 更新日志
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.05.09 | 改为OpenCroe（0.5.8）引导，Clover不再更新 |
 | 2020.03.30 | 更新 clover 5107 |
 | 2020.03.03 | 更新 AppleALC、Lilu、WhateverGreen |
 | 2020.02.21 | 更新 clover 5104、AppleALC、VirtualSMC |

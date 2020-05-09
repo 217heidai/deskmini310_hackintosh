@@ -13,8 +13,10 @@
 | Cooler         | Noctua NH-L9i                                                                             |
 
 ## BIOS
-### For macOS
 * Advanced
+  * CPU Configuration
+    * CPU C States Support: Enabled
+    * CFG Lock: Disabled
   * Chipset Configuration
     * Onboard HD Audio: Enabled
   * USB Configuration
@@ -23,12 +25,6 @@
     * Serial Port: Disabled  
 * Security
   * Secure Boot: Disabled
-
-### For Intel HWP
-* Advanced
-  * CPU Configuration
-    * CPU C States Support: Enabled
-    * CFG Lock: Disabled
 
 ### Other Configurations by default
 
@@ -42,7 +38,7 @@
 
 ## Notes
 
-* After macOS installed done, please open `config.plist` and  fill few SMBIOS info by Clover Configurator.
+* After macOS installed done, please open `config.plist` and  fill few SMBIOS info by OpenCore Configurator.
 
 ## Why Hackintosh
 
@@ -54,6 +50,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
 | 2020.03.30 | clover 5107 |
 | 2020.03.03 | update AppleALC、Lilu、WhateverGreen |
 | 2020.02.21 | clover 5104 & update AppleALC、VirtualSMC |
