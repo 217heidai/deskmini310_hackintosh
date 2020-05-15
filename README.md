@@ -19,12 +19,15 @@
     * CFG Lock: Disabled
   * Chipset Configuration
     * Onboard HD Audio: Enabled
+    * Onboard HDMI HD Audio: Enabled
   * USB Configuration
     * XHCI Hand-off: Enabled
   * Super IO Configuration
     * Serial Port: Disabled  
 * Security
   * Secure Boot: Disabled
+* BOOT
+  * CSM: Disabled
 
 ### Other Configurations by default
 
