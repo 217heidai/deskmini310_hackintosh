@@ -8,19 +8,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>XCPM</string>
+				<string>SSDT-RTC_Y-AWAC_N</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>XCPM.aml</string>
+				<string>SSDT-RTC_Y-AWAC_N.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-AWAC</string>
+				<string>SSDT-PLUG-XCPM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-AWAC.aml</string>
+				<string>SSDT-PLUG-XCPM.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -562,6 +562,8 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
 			<key>MLB</key>
 			<string>{your value}</string>
 			<key>ROM</key>
@@ -621,6 +623,8 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
+			<string>OpenCanopy.efi</string>
+			<string>OpenUsbKbDxe.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
