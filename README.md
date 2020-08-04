@@ -53,6 +53,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.08.04 | OpenCroe 0.6.0 |
 | 2020.06.03 | OpenCroe 0.5.9 |
 | 2020.05.12 | remove ApfsDriverLoader.efi, OpenCroe 0.5.8 already support APFS|
 | 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
