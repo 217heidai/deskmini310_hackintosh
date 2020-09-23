@@ -53,6 +53,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2020.09.23 | OpenCroe 0.6.2 Beta & Big Sur Beta 8|
 | 2020.09.18 | OpenCroe 0.6.2 Beta |
 | 2020.09.14 | OpenCroe 0.6.2 Beta |
 | 2020.09.08 | OpenCroe 0.6.1 |
