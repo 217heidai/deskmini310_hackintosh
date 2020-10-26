@@ -47,23 +47,15 @@
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
-| 2020.10.14 | OpenCroe 0.6.3 Beta |
 | 2020.10.09 | OpenCroe 0.6.2 & Big Sur Beta 9|
-| 2020.09.23 | OpenCroe 0.6.2 Beta & Big Sur Beta 8|
-| 2020.09.18 | OpenCroe 0.6.2 Beta |
-| 2020.09.14 | OpenCroe 0.6.2 Beta |
 | 2020.09.08 | OpenCroe 0.6.1 |
-| 2020.09.04 | OpenCroe 0.6.1 Beta |
-| 2020.08.24 | 支持Big Sur |
+| 2020.08.24 | update to Big Sur Beta |
 | 2020.08.04 | OpenCroe 0.6.0 |
 | 2020.06.03 | OpenCroe 0.5.9 |
-| 2020.05.12 | 删除 ApfsDriverLoader.efi，OpenCroe 0.5.8版本已支持APFS|
-| 2020.05.09 | 改为OpenCroe（0.5.8）引导，Clover不再更新 |
-| 2020.03.30 | 更新 clover 5107 |
-| 2020.03.03 | 更新 AppleALC、Lilu、WhateverGreen |
-| 2020.02.21 | 更新 clover 5104、AppleALC、VirtualSMC |
-| 2020.01.14 | 更新 AppleALC、Lilu、VirtualSMC、WhateverGreen |
-| 2020.01.08 | 更新 clover 5103，使用OsxAptioFix3Drv替换AptioMemoryFix，使用VBoxHfs替换HFSPlus |
-| 2020.01.03 | 更新 clover 5102 |
-| 2019.12.23 | 更新 clover 5101 |
-| 2019.12.11 | 更新 clover 5100，开启 Intel HWP |
+| 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
+| 2020.03.30 | clover 5107 |
+| 2020.02.21 | clover 5104 |
+| 2020.01.08 | clover 5103 |
+| 2020.01.03 | clover 5102 |
+| 2019.12.23 | clover 5101 |
+| 2019.12.11 | clover 5100 |

@@ -53,23 +53,15 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
-| 2020.10.14 | OpenCroe 0.6.3 Beta |
 | 2020.10.09 | OpenCroe 0.6.2 & Big Sur Beta 9|
-| 2020.09.23 | OpenCroe 0.6.2 Beta & Big Sur Beta 8|
-| 2020.09.18 | OpenCroe 0.6.2 Beta |
-| 2020.09.14 | OpenCroe 0.6.2 Beta |
 | 2020.09.08 | OpenCroe 0.6.1 |
-| 2020.09.04 | OpenCroe 0.6.1 Beta |
-| 2020.08.24 | update to Big Sur |
+| 2020.08.24 | update to Big Sur Beta |
 | 2020.08.04 | OpenCroe 0.6.0 |
 | 2020.06.03 | OpenCroe 0.5.9 |
-| 2020.05.12 | remove ApfsDriverLoader.efi, OpenCroe 0.5.8 already support APFS|
 | 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
 | 2020.03.30 | clover 5107 |
-| 2020.03.03 | update AppleALC、Lilu、WhateverGreen |
-| 2020.02.21 | clover 5104 & update AppleALC、VirtualSMC |
-| 2020.01.14 | update AppleALC、Lilu、VirtualSMC、WhateverGreen |
-| 2020.01.08 | clover 5103 & replace AptioMemoryFix with OsxAptioFix3Drv & replace HFSPlus with VBoxHfs |
+| 2020.02.21 | clover 5104 |
+| 2020.01.08 | clover 5103 |
 | 2020.01.03 | clover 5102 |
 | 2019.12.23 | clover 5101 |
-| 2019.12.11 | clover 5100 & Intel HWP |
+| 2019.12.11 | clover 5100 |
