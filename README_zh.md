@@ -47,11 +47,10 @@
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
-| 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 Beta 2|
-| 2020.11.13 | OpenCroe 0.6.4 Beta & Big Sur 11.0.1|
-| 2020.11.11 | OpenCroe 0.6.4 Beta & Big Sur 11.0.1 RC 2|
-| 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1|
-| 2020.10.09 | OpenCroe 0.6.2 & Big Sur Beta 9|
+| 2021.01.05 | OpenCroe 0.6.5 |
+| 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 |
+| 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1 |
+| 2020.10.09 | OpenCroe 0.6.2 & Big Sur Beta 9 |
 | 2020.09.08 | OpenCroe 0.6.1 |
 | 2020.08.24 | update to Big Sur Beta |
 | 2020.08.04 | OpenCroe 0.6.0 |
