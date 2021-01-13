@@ -1,4 +1,5 @@
 # Hackintosh your Deskmini310
+Install Hackintosh(Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
 [中文 Chinese](./README_zh.md)
 
