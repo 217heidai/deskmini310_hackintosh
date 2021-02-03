@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2021.02.03 | OpenCroe 0.6.6 & Big Sur 11.2 |
 | 2021.01.05 | OpenCroe 0.6.5 |
 | 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 |
 | 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1 |
