@@ -1,5 +1,5 @@
 # Hackintosh your Deskmini310
-Install Hackintosh(Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
+Install Hackintosh(Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
 [中文 Chinese](./README_zh.md)
 
@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2021.07.06 | OpenCroe 0.7.1 & Monterey 12.0 Beta 2 |
 | 2021.06.08 | OpenCroe 0.7.0 & Big Sur 11.4 |
 | 2021.05.11 | OpenCroe 0.6.9 & Big Sur 11.3 |
 | 2021.04.06 | OpenCroe 0.6.8 & Big Sur 11.2.3 |
@@ -62,9 +63,9 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 | 2021.01.05 | OpenCroe 0.6.5 |
 | 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 |
 | 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1 |
-| 2020.10.09 | OpenCroe 0.6.2 & Big Sur Beta 9 |
+| 2020.10.09 | OpenCroe 0.6.2 & Big Sur 11.0 Beta 9 |
 | 2020.09.08 | OpenCroe 0.6.1 |
-| 2020.08.24 | update to Big Sur Beta |
+| 2020.08.24 | update to Big Sur 11.0 Beta |
 | 2020.08.04 | OpenCroe 0.6.0 |
 | 2020.06.03 | OpenCroe 0.5.9 |
 | 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
