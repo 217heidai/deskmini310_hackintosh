@@ -48,6 +48,7 @@ Install Hackintosh(Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2021.08.11 | OpenCroe 0.7.2 & Monterey 12.0 Beta 4 |
 | 2021.07.06 | OpenCroe 0.7.1 & Monterey 12.0 Beta 2 |
 | 2021.06.08 | OpenCroe 0.7.0 & Big Sur 11.4 |
 | 2021.05.11 | OpenCroe 0.6.9 & Big Sur 11.3 |

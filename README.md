@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2021.08.11 | OpenCroe 0.7.2 & Monterey 12.0 Beta 4 |
 | 2021.07.06 | OpenCroe 0.7.1 & Monterey 12.0 Beta 2 |
 | 2021.06.08 | OpenCroe 0.7.0 & Big Sur 11.4 |
 | 2021.05.11 | OpenCroe 0.6.9 & Big Sur 11.3 |
