@@ -42,7 +42,7 @@ Install Hackintosh(Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H
 
 ## Notes
 
-* After macOS installed done, please open `config.plist` and  fill few SMBIOS info by OpenCore Configurator.
+* After macOS installed done, please open `config.plist` and fill new SMBIOS info by OpenCore Configurator.
 
 ## Why Hackintosh
 
