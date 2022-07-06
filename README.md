@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2022.07.06 | OpenCroe 0.8.2 |
 | 2022.03.09 | OpenCroe 0.7.9 & Repair system automatic updates |
 | 2022.02.09 | OpenCroe 0.7.8 |
 | 2022.01.11 | OpenCroe 0.7.7 |
