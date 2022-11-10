@@ -1,5 +1,5 @@
 # Hackintosh your Deskmini310
-Install Hackintosh(Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
+Install Hackintosh(Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
 [中文 Chinese](./README_zh.md)
 
@@ -54,6 +54,7 @@ If there is an infinite reboot after upgrading efi, unplug the power and wait fo
 
 | Date      | Content                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2022.11.10 | OpenCroe 0.8.6 & Ventura 13.0|
 | 2022.10.16 | OpenCroe 0.8.5 |
 | 2022.09.06 | OpenCroe 0.8.4 |
 | 2022.08.08 | OpenCroe 0.8.3 |
