@@ -48,6 +48,7 @@ Install Hackintosh(Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2023.01.04 | OpenCroe 0.8.8 |
 | 2022.11.10 | OpenCroe 0.8.6 & Ventura 13.0|
 | 2022.10.16 | OpenCroe 0.8.5 |
 | 2022.09.06 | OpenCroe 0.8.4 |
