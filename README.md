@@ -1,94 +1,91 @@
 # Hackintosh your Deskmini310
+Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
-## Configuration
+## PC 配置
+* CPU: i7-8700es QN8H
+* 内存: 海力士 DDR4 2666MHz 8GB × 2
+* 硬盘: 阿斯加德 AN2 250NVMe-M.2/80
+* 无线网卡: BCM94360CS2（Sonoma 系统原生博通卡驱动已删除） 更换为 Intel WiFi 6E AX210
+* 风扇: 猫头鹰 NH-L9i
 
-| Specifications | Detail                                                                                    |
-|----------------|-------------------------------------------------------------------------------------------|
-| CPU            | INTEL I7-8700                                                                             |
-| RAM            | ADATA DDR4 2666MHz 16GB × 2                                                               |
-| SSD            | WD SN750 512GB M.2 PCIE                                                                   |
-| WIFI/BT        | BCM94360CS2                                                                               |
-| Cooler         | ID-COOLING IS40x                                                                          |
+## BIOS 配置
+### 1. 重置 BIOS 为默认配置
 
-## BIOS
-
-version：P4.4（support P3.x）
-
+### 2. 安装 macOS 所需配置
 * Advanced
+  * CPU Configuration
+    * CPU C States Support: Enabled
+    * CFG Lock: Disabled
   * Chipset Configuration
     * Onboard HD Audio: Enabled
+    * Onboard HDMI HD Audio: Enabled
   * USB Configuration
     * XHCI Hand-off: Enabled
   * Super IO Configuration
     * Serial Port: Disabled  
-  * CPU C State
-    * CFG Lock: Disabled
 * Security
-  * Secure Boot: Disabled(by default)
-* CSM Disable
+  * Secure Boot: Disabled
+* BOOT
+  * CSM: Disabled
 
-Other Configurations by default
+## 工作状态
+* [x] CPU 变频，开启 HWP
+* [x] 核显加速
+* [x] 以太网
+* [x] WIFI（务必替换为对应版本的 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)，否则无法开机）
+* [x] 蓝牙
+* [x] 声卡
+* [x] USB 及 USB 扩展
+* [x] DP/HDMI 双屏输出
+* [x] 关机、重启、睡眠
 
-## Works
+## 提醒
 
-* [x] Ethernet/WIFI/Bluetooth/Audio/USB&EX-USB/Sensors
+* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机
+* 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
-* [x] DP/HDMI dual monitor output
+## 更新日志
 
-* [x] Shutdown、Sleep
-
-## Notes
-
-* After macOS installed done ([Installation Guide](https://www.tonymacx86.com/threads/unibeast-install-macos-mojave-on-any-supported-intel-based-pc.259381/)), please open `config.plist` and  fill few SMBIOS(PlatformInfo) info.
-
-* ~~If you use `BCM94352Z` , please move BCM94352Z/* to CLOVER/kexts/Other.~~ （Unverified）
-
-* If you need to move CLOVER/kexts/Other/* to /L/E&/S/L/E, please modify `InjectKexts` to `Detect` in `config.plist` by Clover Configurator.
-
-## Tips
-
-* If you use `Chrome` , it is recommended to turn off `Chrome` completely when using `IGPU` operations(PS/FCP etc).[Chrome causing Final Cut Pro X to slow down, freeze, and crash](https://appleinsider.com/articles/19/06/20/chrome-causing-final-cut-pro-x-to-freeze-and-crash)
-
-* 10.15.3 is the perfect version, if you have upgraded to 10.15.4, you need to add `igfxagdc=0` in the boot parameters to prevent the HDMI interface from being plugged in and out every time.
-* ~~don't upgrade to 10.15.5 , if you want to use hdmi~~（WEG 1.4.1 fix hdmi）
-* Raise shared memory in bios can significantly reduce the restart probability
-
-## Why Hackintosh
-
-Because We Can！
-
-## Clover's Enlightenment Project
-
-Thank [@liminghuang](https://github.com/liminghuang/asrock_deskmini310_hackintosh)
-
-## ChangeLog
-
-If there is an infinite reboot after upgrading efi, unplug the power and wait for a few seconds before powering up.
-
-| Date      | Content                                                              |
+| 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
-| 2019.7.28 | update clover  5018 & upgrade Mojave 10.14.6（Supplemental update has not been tested） , everything is alright |
-| 2019.7.31 | update clover  5033                                                  |
-| 2019.8.7  | upgrade Mojave 10.14.6 Supplemental update.(I reboot automatically several times after upgraded, and everything worked fine now) |
-| 2019.8.11 | update clover  5045                                                  |
-| 2019.8.27 | update clover  5058 & change FakeSmc to VirtualSmc & some Subtle changes |
-| 2019.9.16 | update clover  5070 & some drivers & some kexts |
-| 2019.10.10 | update some kexts  & upgrade macos catalina (I reboot & crash automatically several times after upgraded, and everything worked fine now)|
-| 2019.10.16 | upgrade macos catalina 19A602 |
-| 2019.10.21 | update clover 5096 & fix sleep wake |
-| 2019.10.30 | update clover 5097 & upgrade macos catalina 10.15.1 |
-| 2019.10.31 | update kexts & replace VoodooHDA to AppleALC |
-| 2019.11.17 | update clover 5098 & use intelMausi.kext |
-| 2019.12.10 | update clover 5100 & some kexts |
-| 2019.12.12 | upgrade macos catalina 10.15.2 |
-| 2020.02.28 | upgrade macos catalina 10.15.3 & update clover 5103 & some kexts |
-| 2020.03.30 | upgrade macos catalina 10.15.4 & update clover 5107 & some kexts |
-| 2020.06.15 | try opencore |
-| 2020.07.18 | upgrade macos catalina 10.15.6 & update opencore 060 & some kexts(self-build (occasionally reboot When wireless sharing))|
-| 2020.09.18 | update opencore 061 & some kexts , ready to upgrade big sur|
-| 2020.09.25 | upgrade macos catalina 10.15.7|
-| 2020.11.12 | upgrade macos catalina 10.15.7 Supplemental update|
-| 2021.01.06 | upgrade macos bigsur 11.1 & opencore 065|
-| 2021.03.01 | upgrade macos bigsur 11.2.2 & opencore 067|
-| 2021.07.29 | upgrade macos bigsur 11.5.1 & opencore 071|
-| 2022.10.28 | upgrade macos ventura 13.0 & opencore 085|
+| 2024.05.28 | OpenCroe 1.0.0 |
+| 2024.03.15 | OpenCroe 0.9.9 & Sonoma 14.4 升级注意事项：1、Misc-SecureBootModel 设置为 Disabled；2、关闭 AirportItlwm、IntelBTPatcher、IntelBluetoothFirmware、BlueToolFixup 驱动；3、成功升级后，还原 1、2 步设置|
+| 2023.12.12 | OpenCroe 0.9.7 & 增加 RestrictEvents.kext 修复 OTA 升级问题 |
+| 2023.10.11 | Sonoma 14.0 & 更换无线网卡为 Intel WiFi 6E AX210|
+| 2023.10.09 | OpenCroe 0.9.5 |
+| 2023.03.15 | OpenCroe 0.9.0 |
+| 2023.01.04 | OpenCroe 0.8.8 |
+| 2022.11.10 | OpenCroe 0.8.6 & Ventura 13.0|
+| 2022.10.16 | OpenCroe 0.8.5 |
+| 2022.09.06 | OpenCroe 0.8.4 |
+| 2022.08.08 | OpenCroe 0.8.3 |
+| 2022.07.06 | OpenCroe 0.8.2 |
+| 2022.03.09 | OpenCroe 0.7.9 & 修复检测不到系统更新问题 |
+| 2022.02.09 | OpenCroe 0.7.8 |
+| 2022.01.11 | OpenCroe 0.7.7 |
+| 2021.12.07 | OpenCroe 0.7.6 |
+| 2021.11.02 | OpenCroe 0.7.5 & Monterey 12.0.1 |
+| 2021.10.09 | OpenCroe 0.7.4 & Monterey 12.0 Beta 9 |
+| 2021.09.07 | OpenCroe 0.7.3 & Monterey 12.0 Beta 6 |
+| 2021.08.11 | OpenCroe 0.7.2 & Monterey 12.0 Beta 4 |
+| 2021.07.06 | OpenCroe 0.7.1 & Monterey 12.0 Beta 2 |
+| 2021.06.08 | OpenCroe 0.7.0 & Big Sur 11.4 |
+| 2021.05.11 | OpenCroe 0.6.9 & Big Sur 11.3 |
+| 2021.04.06 | OpenCroe 0.6.8 & Big Sur 11.2.3 |
+| 2021.03.03 | OpenCroe 0.6.7 & Big Sur 11.2.2 |
+| 2021.02.03 | OpenCroe 0.6.6 & Big Sur 11.2 |
+| 2021.01.05 | OpenCroe 0.6.5 |
+| 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 |
+| 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1 |
+| 2020.10.09 | OpenCroe 0.6.2 & Big Sur 11.0 Beta 9 |
+| 2020.09.08 | OpenCroe 0.6.1 |
+| 2020.08.24 | update to Big Sur 11.0 Beta |
+| 2020.08.04 | OpenCroe 0.6.0 |
+| 2020.06.03 | OpenCroe 0.5.9 |
+| 2020.05.09 | replace Clover with OpenCroe 0.5.8 |
+| 2020.03.30 | clover 5107 |
+| 2020.02.21 | clover 5104 |
+| 2020.01.08 | clover 5103 |
+| 2020.01.03 | clover 5102 |
+| 2019.12.23 | clover 5101 |
+| 2019.12.11 | clover 5100 |
