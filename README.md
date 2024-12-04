@@ -48,6 +48,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2024.12.04 | OpenCroe 1.0.3 |
 | 2024.08.08 | OpenCroe 1.0.1 |
 | 2024.05.28 | OpenCroe 1.0.0 |
 | 2024.03.15 | OpenCroe 0.9.9 & Sonoma 14.4 升级注意事项：1、Misc-SecureBootModel 设置为 Disabled；2、关闭 AirportItlwm、IntelBTPatcher、IntelBluetoothFirmware、BlueToolFixup 驱动；3、成功升级后，还原 1、2 步设置|
