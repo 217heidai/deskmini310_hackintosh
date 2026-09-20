@@ -48,6 +48,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 | 日期      | 详情                                                              |
 |-----------|----------------------------------------------------------------------|
+| 2026.09.20 | OpenCroe 1.0.7 |
 | 2025.11.07 | OpenCroe 1.0.6 |
 | 2025.07.08 | OpenCroe 1.0.5 |
 | 2025.03.12 | OpenCroe 1.0.4 |
