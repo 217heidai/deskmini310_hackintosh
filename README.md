@@ -46,7 +46,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 ## 提醒
 
-* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机
+* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机。Sonoma 14.4+ 使用 DexterSLamb 修复版的[AirportItlwm](https://github.com/DexterSLamb/itlwm)。
 * 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
 ## 更新日志
