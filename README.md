@@ -1,7 +1,9 @@
 # Hackintosh your Deskmini310
+
 Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
 ## PC 配置
+
 * CPU: i7-8700es QN8H
 * 内存: 海力士 DDR4 2666MHz 8GB × 2
 * 硬盘: 阿斯加德 AN2 250NVMe-M.2/80
@@ -9,9 +11,11 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 * 风扇: 猫头鹰 NH-L9i
 
 ## BIOS 配置
+
 ### 1. 重置 BIOS 为默认配置
 
 ### 2. 安装 macOS 所需配置
+
 * Advanced
   * CPU Configuration
     * CPU C States Support: Enabled
@@ -29,6 +33,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
   * CSM: Disabled
 
 ## 工作状态
+
 * [x] CPU 变频，开启 HWP
 * [x] 核显加速
 * [x] 以太网
@@ -46,8 +51,9 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 ## 更新日志
 
-| 日期      | 详情                                                              |
-|-----------|----------------------------------------------------------------------|
+| 日期 | 详情 |
+| - | - |
+| 2026.09.28 | OpenCroe 1.0.8 |
 | 2026.09.20 | OpenCroe 1.0.7 |
 | 2025.11.07 | OpenCroe 1.0.6 |
 | 2025.07.08 | OpenCroe 1.0.5 |
@@ -55,13 +61,13 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 | 2024.12.04 | OpenCroe 1.0.3 |
 | 2024.08.08 | OpenCroe 1.0.1 |
 | 2024.05.28 | OpenCroe 1.0.0 |
-| 2024.03.15 | OpenCroe 0.9.9 & Sonoma 14.4 升级注意事项：1、Misc-SecureBootModel 设置为 Disabled；2、关闭 AirportItlwm、IntelBTPatcher、IntelBluetoothFirmware、BlueToolFixup 驱动；3、成功升级后，还原 1、2 步设置|
+| 2024.03.15 | OpenCroe 0.9.9 & Sonoma 14.4 升级注意事项：1、Misc-SecureBootModel 设置为 Disabled；2、关闭 AirportItlwm、IntelBTPatcher、IntelBluetoothFirmware、BlueToolFixup 驱动；3、成功升级后，还原 1、2 步设置 |
 | 2023.12.12 | OpenCroe 0.9.7 & 增加 RestrictEvents.kext 修复 OTA 升级问题 |
-| 2023.10.11 | Sonoma 14.0 & 更换无线网卡为 Intel WiFi 6E AX210|
+| 2023.10.11 | Sonoma 14.0 & 更换无线网卡为 Intel WiFi 6E AX210 |
 | 2023.10.09 | OpenCroe 0.9.5 |
 | 2023.03.15 | OpenCroe 0.9.0 |
 | 2023.01.04 | OpenCroe 0.8.8 |
-| 2022.11.10 | OpenCroe 0.8.6 & Ventura 13.0|
+| 2022.11.10 | OpenCroe 0.8.6 & Ventura 13.0 |
 | 2022.10.16 | OpenCroe 0.8.5 |
 | 2022.09.06 | OpenCroe 0.8.4 |
 | 2022.08.08 | OpenCroe 0.8.3 |

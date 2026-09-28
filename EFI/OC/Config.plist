@@ -1085,6 +1085,36 @@
 				<key>Skip</key>
 				<integer>0</integer>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>i386</string>
+				<key>Base</key>
+				<string>_machine_idle_cstate</string>
+				<key>Comment</key>
+				<string>Fix CPU usage in QEMU by halting on idle</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string>8.99.99</string>
+				<key>MinKernel</key>
+				<string>8.0.0</string>
+				<key>Replace</key>
+				<data>+/TD</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -1535,8 +1565,10 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
-				<key>LoadEarly</key>
+				<key>HideVerbose</key>
 				<false/>
+				<key>LoadEarly</key>
+				<true/>
 				<key>Path</key>
 				<string>OpenVariableRuntimeDxe.efi</string>
 			</dict>
@@ -1547,6 +1579,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1558,6 +1592,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1571,6 +1607,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1582,6 +1620,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1595,6 +1635,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1606,6 +1648,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1619,6 +1663,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1631,6 +1677,8 @@
 				<string>HFS+ Driver</string>
 				<key>Enabled</key>
 				<true/>
+				<key>HideVerbose</key>
+				<true/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1642,7 +1690,9 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1654,6 +1704,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1667,6 +1719,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1678,6 +1732,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1691,6 +1747,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1702,6 +1760,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1715,6 +1775,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1726,6 +1788,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1739,6 +1803,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1750,6 +1816,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1763,6 +1831,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1774,6 +1844,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1787,6 +1859,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1798,6 +1872,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1811,6 +1887,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1822,6 +1900,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1835,6 +1915,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1846,6 +1928,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1859,6 +1943,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1870,6 +1956,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1883,6 +1971,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1894,6 +1984,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1907,6 +1999,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1918,6 +2012,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1931,6 +2027,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1942,6 +2040,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1955,6 +2055,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1966,6 +2068,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -1979,6 +2083,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -1990,6 +2096,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -2003,6 +2111,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2014,6 +2124,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -2027,6 +2139,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2038,6 +2152,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -2051,6 +2167,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2062,6 +2180,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -2075,6 +2195,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2086,6 +2208,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
@@ -2099,6 +2223,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2111,6 +2237,8 @@
 				<string></string>
 				<key>Enabled</key>
 				<false/>
+				<key>HideVerbose</key>
+				<false/>
 				<key>LoadEarly</key>
 				<false/>
 				<key>Path</key>
@@ -2122,6 +2250,8 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
+				<false/>
+				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
 				<false/>
