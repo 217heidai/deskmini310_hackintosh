@@ -46,13 +46,15 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 ## 提醒
 
-* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机。Sonoma 14.4+ 使用 DexterSLamb 修复版的[AirportItlwm](https://github.com/DexterSLamb/itlwm)。
+* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机。Sonoma 14.4+ 使用 DexterSLamb 修复版的[AirportItlwm](https://github.com/DexterSLamb/itlwm)。Sequoia 使用 laobamac 修复版的[AirportItlwm](https://github.com/laobamac/itlwm)。
+* Sequoia 使用 lshbluesky 修复版的[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)。
 * 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
 ## 更新日志
 
 | 日期 | 详情 |
 | - | - |
+| 2026.11.18 | Sequoia 15.8.3 & laobamac 修复版[AirportItlwm](https://github.com/laobamac/itlwm)、lshbluesky 修复版[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)，WIFI、蓝牙正常使用，AirDrop暂无法使用。|
 | 2026.09.28 | OpenCroe 1.0.8 |
 | 2026.09.20 | OpenCroe 1.0.7 |
 | 2025.11.07 | OpenCroe 1.0.6 |
