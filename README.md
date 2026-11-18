@@ -1,13 +1,13 @@
 # Hackintosh your Deskmini310
 
-Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
+Install Hackintosh(Sequoia & Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini 310(i7-8700es QN8H)
 
 ## PC 配置
 
 * CPU: i7-8700es QN8H
 * 内存: 海力士 DDR4 2666MHz 8GB × 2
 * 硬盘: 阿斯加德 AN2 250NVMe-M.2/80
-* 无线网卡: BCM94360CS2（Sonoma 系统原生博通卡驱动已删除） 更换为 Intel WiFi 6E AX210
+* 无线网卡: BCM94360CS2（Sonoma 系统原生博通卡驱动已删除）更换为 Intel WiFi 6E AX210
 * 风扇: 猫头鹰 NH-L9i
 
 ## BIOS 配置
@@ -37,7 +37,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 * [x] CPU 变频，开启 HWP
 * [x] 核显加速
 * [x] 以太网
-* [x] WIFI（务必替换为对应版本的 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm)，否则无法开机）
+* [x] WIFI
 * [x] 蓝牙
 * [x] 声卡
 * [x] USB 及 USB 扩展
@@ -46,7 +46,7 @@ Install Hackintosh(Sonoma & Ventura & Monterey & Big Sur & Catalina) in Deskmini
 
 ## 提醒
 
-* [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) 务必替换为对应系统版本，否则无法开机。Sonoma 14.4+ 使用 DexterSLamb 修复版的[AirportItlwm](https://github.com/DexterSLamb/itlwm)。Sequoia 使用 laobamac 修复版的[AirportItlwm](https://github.com/laobamac/itlwm)。
+* Sonoma 14.4 以下使用 OpenIntelWireless 的[AirportItlwm](https://github.com/OpenIntelWireless/itlwm)。Sonoma 14.4+ 使用 DexterSLamb 修复版的[AirportItlwm](https://github.com/DexterSLamb/itlwm)。Sequoia 使用 laobamac 修复版的[AirportItlwm](https://github.com/laobamac/itlwm)。
 * Sequoia 使用 lshbluesky 修复版的[IntelBluetoothFirmware](https://github.com/lshbluesky/IntelBluetoothFirmware)。
 * 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
 
